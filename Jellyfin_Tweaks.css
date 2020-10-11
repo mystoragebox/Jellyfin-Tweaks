@@ -1,0 +1,97 @@
+/* Count */
+.countIndicator, .fullSyncIndicator, .playedIndicator {
+	background: #0000009e;
+	color: #ffffff;
+}
+
+/* Hover buttons */
+.paper-icon-button-light:hover:not(:disabled) {
+    color: #ffffff;
+    background-color: #00000080;
+}
+.cardOverlayButton {
+    color: #dedede;
+}
+
+/* Nav and icon colour */
+.playstatebutton-icon-played, .ratingbutton-icon-withrating, .button-flat:hover, .button-link, .emby-tab-button.show-focus:focus, .emby-tab-button:hover, .emby-tab-button-active {
+    color: #dc9b23;
+}
+
+/* Logo colour */
+.pageTitleWithDefaultLogo {
+    filter: hue-rotate(100deg);
+}
+
+/* Form highlight colour */
+.emby-input:focus, .emby-textarea:focus, .emby-checkbox:checked+span+.checkboxOutline, .checkboxOutline:focus {
+    border-color: #dc9b23;
+}
+.inputLabelFocused {
+	color: #dc9b23;
+}
+.button-submit, .button-submit:focus {
+    background: #dc9b23;
+    color: #fff;
+}
+.emby-checkbox:checked+span+.checkboxOutline, .itemProgressBarForeground {
+    background-color: #dc9b23;
+}
+
+/* Streamline header */
+.headerTabs.sectionTabs {
+	text-size-adjust: 120%;
+	font-size: 120%;
+}
+.pageTitle {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.emby-tab-button {
+	padding: 0.35em 1.7em;
+}
+.libraryPage:not(.noSecondaryNavPage) {
+	padding-top: 5.4em!important;
+}
+.headerTop {
+	padding: 0.15em 0 0 0;
+}
+.skinHeader .paper-icon-button-light {
+	padding: 0.5em;
+}
+.skinHeader .paper-icon-button-light>.material-icons {
+	font-size: 1.4em;
+}
+
+/* Rounded artists */
+#albumArtistsTab .cardScalable, #artistsTab .cardScalable {
+	border-radius: 100%;
+	overflow: hidden;
+}
+#albumArtistsTab .cardOverlayButton-br, #artistsTab .cardOverlayButton-br {
+	right: 3em;
+}
+#albumArtistsTab .cardOverlayFab-primary, #artistsTab .cardOverlayFab-primary {
+	background-color: #dddddd7a;
+}
+#albumArtistsTab .cardImageContainer, #artistsTab .cardImageContainer {
+	filter: grayscale(100);
+}
+
+/* My media buttons */
+.section0 .cardPadder-overflowBackdrop {
+	padding-bottom: 30.25%;
+}
+
+/* Cast images */
+#castContent .cardContent {
+	filter: grayscale(100);
+}
+
+/* Now playing */
+.mdl-slider-background-lower {
+	background: #dc9b23;
+}
+.mdl-slider__background-lower, .mdl-slider::-webkit-slider-thumb { /*Chrome*/
+	background:#dc9b23 !important;
+}
