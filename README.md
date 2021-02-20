@@ -3,7 +3,7 @@
 ## Helping Out
 If you have an idea for a tweak or a whole theme get in touch with me and I'll see what I can do.
 ## How to Use
- Under Dashboard -> General you will see a custom CSS field, copy the CSS tweaks you would like to use into this field and save. For a better explination please see the [Jellyfin CSS Customization](https://jellyfin.org/docs/general/clients/css-customization.html) documents. They have other styles and resources on that page that I use for my install so it's well worth checking out.
+ Under Dashboard -> General you will see a custom CSS field, copy the CSS tweaks you would like to use into this field and save. For a better explination please see the [Jellyfin CSS Customization](https://jellyfin.org/docs/general/clients/css-customization.html) documents. There's more styles and resources on that page that I use for my install so it's well worth checking out.
 ## Jellyfin_Tweaks.css
  Below is a list of the tweaks in order on the stylesheet.
  * *Count* - colours for the count and played indicator on TV Shows covers
